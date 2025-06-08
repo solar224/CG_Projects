@@ -1,0 +1,3 @@
+78.64 solo_input_log_20250603_234037.inputrec
+78.81 solo_input_log_20250602_112924.inputrec
+78.82 solo_input_log_20250602_101630.inputrec
