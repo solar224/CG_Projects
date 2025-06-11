@@ -248,29 +248,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-# Final_Project.cpp 可能需要的修改建議：
-"""
-要使1vPC選項和MODE_AI參數都能正確連接到AI，需要修改Final_Project.cpp：
-
-1. 找到處理遊戲模式的代碼，確保1vPC選項也啟動與MODE_AI相同的網絡服務：
-
-   // 找到類似這樣的代碼
-   if (gameMode == MODE_AI || gameMode == MODE_PVP) {  // MODE_PVP可能是1vPC選項
-       initNetwork();  // 確保這個函數被調用
-   }
-
-2. 在initNetwork()函數中，確保正確初始化了TCP服務器：
-
-   bool initNetwork() {
-       // 確保服務器初始化在正確的端口 (12345)
-       // 檢查是否與game_interface.py中設置的端口一致
-   }
-
-3. 檢查遊戲模式切換時是否有重新初始化網絡服務：
-
-   // 確保當模式變為MODE_PVP(1vPC)時
-   // 也會調用網絡初始化函數
-
-注意: 請備份原始代碼再進行修改。
-""" 
