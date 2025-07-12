@@ -2,7 +2,6 @@
 
 這是一個結合 C++/OpenGL 3D 賽車遊戲與 Python/PyTorch 深度強化學習的專案。AI Agent 採用了 **D3QN (Dueling Double Deep Q-Network)** 演算法，透過與遊戲環境的即時互動，從零開始學會自動駕駛並完成賽道。
 
-![Project Demo](https://googleusercontent.com/image_generation_content/0)
 
 ## 主要功能
 
