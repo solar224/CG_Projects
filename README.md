@@ -1,10 +1,10 @@
-# 🤖 D3QN 強化學習賽車 AI
+# D3QN 強化學習賽車 AI
 
 這是一個結合 C++/OpenGL 3D 賽車遊戲與 Python/PyTorch 深度強化學習的專案。AI Agent 採用了 **D3QN (Dueling Double Deep Q-Network)** 演算法，透過與遊戲環境的即時互動，從零開始學會自動駕駛並完成賽道。
 
 ![Project Demo](https://googleusercontent.com/image_generation_content/0)
 
-## ✨ 主要功能
+## 主要功能
 
 * **3D 賽車遊戲**：使用 C++ 和 OpenGL 從頭打造，包含完整的物理模擬、多種賽道表面（柏油、沙地、草地）和可互動的場景物件。
 * **先進的 AI 演算法**：AI 的核心是 D3QN，它整合了 **Dueling DQN** 和 **Double DQN** 的優點，提升了學習的穩定性和效率。
@@ -18,13 +18,13 @@
     * **Email 通知系統**：在訓練完成、完成一圈或發生錯誤時自動發送郵件通知。
 * **最佳紀錄重播系統**：在「1 vs PC」模式中，AI 會自動載入玩家在 Solo 模式中的最佳紀錄進行挑戰。
 
-## 🛠️ 技術
+## 技術
 
 * **遊戲端**：C++, OpenGL, GLUT
 * **AI 端**：Python, PyTorch
 * **函式庫**：`numpy`, `winsock2` (C++), `stb_image`, `tiny_obj_loader`
 
-## 🚀 設定與安裝
+## 設定與安裝
 
 請依照以下步驟設定您的本地開發環境。
 
@@ -36,7 +36,7 @@
 
 ### 2. 安裝步驟
 
-1.  **克隆專案庫**
+1.  **clone 專案庫**
     ```bash
     git clone [https://github.com/YourUsername/YourRepoName.git](https://github.com/YourUsername/YourRepoName.git)
     cd YourRepoName
@@ -54,7 +54,7 @@
     ```
     > **注意**：`-I.` 和 `-L.` 參數會告訴編譯器在當前目錄尋找標頭檔和函式庫。請確保 `glut.h` 等檔案位於正確位置。
 
-## 💡 使用說明
+## 使用說明
 
 ### 1. 訓練 AI 模型
 
